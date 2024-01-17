@@ -209,7 +209,7 @@ def main():
     target_day = datetime(2022, 7, 16)
 
     # Generate booking curve and calculate cumulative available rooms
-    #generate_booking_curve(hotel_data, target_day, total_rooms, days_limit)
+    generate_booking_curve(hotel_data, target_day, total_rooms, days_limit)
 
     target_year= 2022
     target_month = 7
@@ -223,7 +223,7 @@ def main():
 
     #uncomment following function to see run simple app which allows you to select datepicker that aids in generating booking curve for selected date
     # Generate booking curve for selected date using data picker
-    generate_booking_curve_with_datePicker(hotel_data, target_day, total_rooms, days_limit)
+    #generate_booking_curve_with_datePicker(hotel_data, target_day, total_rooms, days_limit)
 
     
 if __name__ == "__main__":
